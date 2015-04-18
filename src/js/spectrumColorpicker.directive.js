@@ -22,7 +22,7 @@
       templateUrl: 'directive.html',
       link: function($scope, $element, attrs, $ngModel) {
 
-        var $input = $element.find('input');
+        var $input = $element.find('img');
 
         function formatColor(tiny) {
           var formatted = tiny;
