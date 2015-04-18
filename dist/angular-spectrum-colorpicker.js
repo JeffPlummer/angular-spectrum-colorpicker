@@ -39,7 +39,7 @@
         templateUrl: 'directive.html',
         link: function($scope, $element, attrs, $ngModel) {
   
-          var $input = $element.find('input');
+          var $input = $element.find('img');
   
           function formatColor(tiny) {
             var formatted = tiny;
@@ -149,7 +149,7 @@
     'use strict';
   
     $templateCache.put('directive.html',
-      "<span><input class=input-small></span>"
+      "<span><img src=img/icons/emblem-art2.png></span>"
     );
   
   }]);
